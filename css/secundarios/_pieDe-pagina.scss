@@ -1,0 +1,15 @@
+.pieDePagina {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color_1;
+	.pie {
+		text-decoration: none;
+		color: $color_1;
+	}
+}
+img {
+	width: 100px;
+	padding: 10px;
+}

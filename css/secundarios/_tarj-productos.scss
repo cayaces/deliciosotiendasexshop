@@ -1,0 +1,62 @@
+@import 'variables';
+@import 'mixin';
+
+.estilos-row {
+	@include estilosRow;
+	width: 100%;
+
+
+	.card {
+
+		border-radius: 16px;
+		transition: .2s ease-in-out;
+
+
+		&:hover {
+			transform: translate(0, -16px);
+		}
+
+		.card-img {
+			max-height: 200px;
+			max-width: 200px;
+			width: 100%;
+			margin: 10px auto;
+			height: 100%;
+
+			img {
+				border-radius: 50%;
+				border: 5px solid $color-tarjeta;
+				object-fit: cover;
+				height: 100%;
+				width: 100%;
+				
+			}
+		}
+
+
+		.card-title {
+			color: $color-1;
+			background-color: $fondo-titulo-tarjeta;
+			padding: 20px 3px;
+			border-radius: 15px;
+			text-align: center;
+			align-items: center;
+			display: block;
+		}
+	}
+
+
+}
+
+
+#lenceria .card {
+	@include estilosRow;
+	margin-bottom: 20px;
+	
+	img{
+		object-fit: cover;
+		max-height: 230px;
+		width: 100%;
+		height: 100%;
+	}
+}

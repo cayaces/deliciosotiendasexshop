@@ -1,0 +1,38 @@
+@import 'variables';
+
+
+.barra--menu {
+	padding: 20px 40px;
+	background-color: $background-color-1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.barra {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+	flex-wrap: wrap;
+	li {
+		list-style-type: none;
+		padding: 10px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: flex-start;
+		text-decoration: none;
+	}
+}
+nav {
+	.barra {
+		li {
+			a {
+				text-decoration: none;
+				color: $color_1;
+			}
+		}
+	}
+}

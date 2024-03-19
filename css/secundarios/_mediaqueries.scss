@@ -1,0 +1,51 @@
+@media screen and (max-width: 1024px) {
+
+    .card-producto .translate {
+        flex-direction: column;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+        display: flex;
+
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .card-producto .translate {
+        flex-direction: column;
+
+    }
+
+    .tarjetas {
+        flex-direction: column;
+        display: flex
+    }
+
+    .container {
+        padding: 0;
+    
+    }
+
+    .btn-enviar {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .card-producto .translate {
+        flex-direction: column;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+        display: flex;
+
+    }
+  
+}

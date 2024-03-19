@@ -1,0 +1,11 @@
+@mixin estilosRow{
+   
+        padding: 20px;
+        border-radius: 10px;
+        background-color: $background-color-1;
+        border: 2px solid hwb(315 9% 7% / 0.24);
+        margin: 20px auto;
+        justify-content: center;
+    
+   
+}

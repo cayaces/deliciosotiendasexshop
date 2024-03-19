@@ -1,0 +1,31 @@
+@import 'variables';
+
+.titulo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		color: $color-tarjeta;
+		background-color: $background-color-1;
+		padding: 20px;
+		border-radius: 15px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin-top: 50px;
+	}
+}
+.titulo2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	h2 {
+		color: $color-tarjeta;
+		background-color: $background-color-1;
+		padding: 20px;
+		border-radius: 15px;
+		text-align: center;
+		margin-top: 50px;
+	}
+}
